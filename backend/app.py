@@ -20,7 +20,7 @@ cursor = db.cursor()
 def home():
     return "Backend running!"
 
-#  NEWS API (YAHI ADD KARNA THA)
+#  NEWS API 
 @app.route('/news')
 def news():
     return {
